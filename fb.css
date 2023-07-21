@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F0F2F5;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.container{
+    display: flex;
+    width: 88%;
+    height: 100vh;
+    margin: 0px 150px;
+}
+
+.c-left{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.c-right{
+    flex: 1;
+}
+
+.c-img{
+    width: 300px;
+    margin-left: -27px;
+}
+
+.c-desc{
+    font-size: 28px;
+    font-weight: 400;
+}
