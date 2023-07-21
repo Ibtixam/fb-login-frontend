@@ -31,6 +31,11 @@
     margin-bottom: -9px;
 }
 
+a{
+    list-style-type: none;
+    text-decoration: none;
+}
+
 .c-desc{
     font-size: 28px;
     font-weight: 400;
@@ -56,18 +61,19 @@
     border-radius: 12px;
     margin-top: 48px;
     margin-right: 139px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 input{
-    width: 80%;
+    width: 83%;
     margin: 6px;
-    padding: 17px;
+    padding: 15px;
     outline: none;
     background: white;
     border-radius: 8px;
     border: 1px solid #dadada;
     font-size: 17px;
-    margin-left: 22px;
+    margin-left: 18px;
 }
 
 .c-btn{
@@ -86,10 +92,7 @@ input{
 }
 
 .c-password{
-    list-style-type: none;
-    text-decoration: none;
     text-align: center;
-    color: #1877F2;
     font-size: 14px;
     background: white;
     padding: 2px;
@@ -115,4 +118,11 @@ input{
     font-weight: 700;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.c-page{
+    color: black;
+    /* margin: 12px 0px; */
+    margin-right: 131px;
+
 }
