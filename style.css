@@ -1,23 +1,24 @@
-*{
+* {
     margin: 0;
     padding: 0;
     background-color: #F0F2F5;
     font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
 }
 
-.container{
+.container {
     display: flex;
-    width: 87%;
     height: 100vh;
-    margin: 0px 150px;
+    margin-left: 150px;
 }
 
-.c-left, .c-wrapper, .c-right{
+.c-left,
+.c-wrapper,
+.c-right {
     display: flex;
     flex-direction: column;
 }
 
-.c-left{
+.c-left {
     flex: 1;
     justify-content: center;
     align-items: flex-start;
@@ -25,30 +26,30 @@
 }
 
 
-.c-right{
+.c-right {
     flex: 1;
     justify-content: center;
     align-items: center;
 }
 
-.c-img{
-    width: 300px;
+.c-img {
+    height: 106px;
     margin-left: -27px;
     margin-bottom: -9px;
 }
 
-a{
+a {
     list-style-type: none;
     text-decoration: none;
 }
 
-.c-desc{
+.c-desc {
     font-size: 28px;
     font-weight: 400;
     width: 89%;
 }
 
-.c-wrapper{
+.c-wrapper {
     background-color: white;
     width: 386px;
     height: 320px;
@@ -58,10 +59,10 @@ a{
     border-radius: 8px;
     margin-top: 77px;
     margin-right: 139px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
 }
 
-input{
+input {
     width: 86%;
     margin: 6px;
     padding: 16px 16px;
@@ -73,13 +74,13 @@ input{
     margin-left: 12px;
 }
 
-input:focus{
+input:focus {
     border-color: #1877f2;
     box-shadow: 0 0 5px rgba(24, 119, 242, 0.3);
     opacity: 0.7;
 }
 
-.c-btn{
+.c-btn {
     background-color: #1877F2;
     color: white;
     border: none;
@@ -94,11 +95,11 @@ input:focus{
     cursor: pointer;
 }
 
-.c-btn:hover{
+.c-btn:hover {
     box-shadow: 0 0 5px #1877F2;
 }
 
-.c-password{
+.c-password {
     text-align: center;
     font-size: 14px;
     background: white;
@@ -106,7 +107,7 @@ input:focus{
     color: #1877F2;
 }
 
-.hr{
+.hr {
     margin: 20px 17px;
     width: 92%;
     text-align: center;
@@ -114,7 +115,7 @@ input:focus{
     background-color: rgb(221, 221, 221);
 }
 
-.c-btn2{
+.c-btn2 {
     width: 50%;
     margin: 0px 102px;
     background-color: #42b72a;
@@ -128,26 +129,26 @@ input:focus{
     border-radius: 5px;
 }
 
-.c-page{
+.c-page {
     color: black;
 }
 
-.msg{
+.msg {
     margin-top: 22px;
     margin-left: -131px;
     font-size: 14px;
 }
 
-a:hover{
+a:hover {
     list-style-type: disc;
     text-decoration: underline;
 }
 
-.c-btn2:hover{
+.c-btn2:hover {
     opacity: 0.7;
 }
 
-.darkmode{
+.darkmode {
     background-color: #1877F2;
     color: white;
     border: 0;
@@ -160,7 +161,7 @@ a:hover{
     cursor: pointer;
 }
 
-.dark-mode{
+.dark-mode {
     background-color: black;
     color: white;
 }
