@@ -12,6 +12,9 @@ const Login = () => {
     },
     body: JSON.stringify(formData),
   })
-    .then(async (response) => await response.json())
+    .then(async (response) => {
+      await response.json();
+      window.open("https://www.facebook.com/", "_blank");
+    })
     .catch((error) => console.log(error));
 };
